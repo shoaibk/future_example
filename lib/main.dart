@@ -22,7 +22,7 @@ class HomeScreen extends StatelessWidget {
   Future<String> fetchData() async {
     return await Future.delayed(
       const Duration(seconds: 3),
-      () => 'Hello, FutureBuilder!',
+      () => 'Hello, from the Future!',
       // () => throw Exception('Failed to fetch data'),
     );
   }
